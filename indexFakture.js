@@ -21,9 +21,11 @@ const sveFakture = document.querySelector('#sveFakt')
 const lista = document.querySelector('#itemList')
 
 
-// Neajbitniji deo koda (?)
+// Najbitniji deo koda (?)
 
-
+/*    . 
+      . 
+      .    */
 
 
 // // Dodatno 
