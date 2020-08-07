@@ -1,0 +1,44 @@
+Zadatak
+
+Napisati web aplikaciju koja omogucava vodjenje evidencije o fakturama. Aplikacija poseduje polje za naziv kompanije, PIB kompanije, datum fakturisanja, kao i cenu u dinarima.
+
+Prilikom klika na dugme Insert u container ispod se ubacuje faktura u formatu datom unutar HTMl koda, prilozenog uz tekst.
+
+Funkcionalnosti
+
+1. Obezbediti kreiranje fakture.
+2. Obezbediti proveru ispravnosti unetih polja.
+      * Naziv kompanije ne sme da prima samo blanko znakove. U slucaju blanko znakova napisati alert o pogresnom unosu.
+      * PIB mora da bude osmocifreni broj.
+      * Value mora da bude broj. Ukoliko sadrzi tekst ispisati gresku.
+3. Nakon dodavanja fakture resetovati polja.
+4. Obezbediti da se na dugme DELETE svake fakture ista obrise
+5.Prilikom kreiranja fakture sve informac=ije pamtiti u nizu po sledecoj JS strukturi objekta:
+[
+   {
+      name : 'Ime kompanije,
+      pib : '12345678',
+      dateIssued : '2019-11-18',
+      value : 1000,
+      currency : 'RSD',
+      timeStamp : '10:29:21',
+      dateStamp : '2019-11-18',
+   },
+   {
+      name : 'Ime kompanije',
+      pib : '78945612',
+      dateIssued : '2019-11-18',
+      value ; 1500,
+      currency : 'RSD',
+      timeStamp : '10:29:21',
+      dateStamp : '2019-11-18,
+   }
+]
+6. Potrebno je novi objekat ispisati u konzoli svaki put kada se kreira.
+
+Dodatno
+
+Na HTML str ubaciti dugme iznad spiska faktura koje prilikom klika ispisuje ceo niz JS objekata kreiranih prilikom resavanja stavke 5
+
+### Napomena
+Za sve nejasnoce ustanoviti razumnu pretpostavku, istu dokumentovati uvidu komentara, a zatim nastaviti izradu zadatka pod tom pretpostavkom.
