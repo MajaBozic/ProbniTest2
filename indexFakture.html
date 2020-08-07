@@ -1,52 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>IT Bootcamp fakture</title>
-		<link rel="stylesheet" href="styleFakture.css" />
-	</head>
-	<body>
-		<header>
-			<h1>IT Bootcamp Accounting</h1>
-		</header>
 
-		<section class="inputContainer">
-			<input
-				type="text"
-				id="txtCmpnName"
-				placeholder="Company Name"
-				required
-			/>
-			<input
-				type="text"
-				id="txtCmpnPIB"
-				placeholder="Company PIB"
-				required
-			/>
-			<div>
-				<label>Datum:</label>
-				<input type="date" id="txtTime" placeholder="Datum" required />
-			</div>
-			<input
-				type="text"
-				id="txtValue"
-				placeholder="Vrednost u RSD"
-				required
-			/>
-			<input type="submit" id="bttnAdd" value="Unesite" />
-		</section>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>IT Bootcamp fakture</title>
+	<link rel="stylesheet" href="styleFakture.css" />
+</head>
 
-		<button id="sveFakt">
-			Prijava svih faktura u sistem
-		</button>
+<body>
+	<header>
+		<h1>IT Bootcamp Accounting</h1>
+	</header>
 
-		<section id="itemList">
-			
-		</section>
+	<section class="inputContainer">
+		<input type="text" id="txtCmpnName" placeholder="Company Name" required />
+		<input type="text" id="txtCmpnPIB" placeholder="Company PIB" required />
+		<div>
+			<label>Datum:</label>
+			<input type="date" id="txtTime" placeholder="Datum" required />
+		</div>
+		<input type="text" id="txtValue" placeholder="Vrednost u RSD" required />
+		<input type="submit" id="bttnAdd" value="Unesite" />
+	</section>
 
-		<script src="indexFakture.js">
-         
-      </script>
-	</body>
+	<button id="sveFakt">
+		Prijava svih faktura u sistem
+	</button>
+
+	<section id="itemList">
+
+	</section>
+
+	<script src="indexFakture.js">
+
+	</script>
+</body>
+
 </html>
