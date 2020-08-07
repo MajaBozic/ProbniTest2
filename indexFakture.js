@@ -23,10 +23,10 @@ const lista = document.querySelector('#itemList')
 
 // Najbitniji deo koda (?)
 
-/*    . 
-      . 
+/*    .
+      .
       .    */
 
 
 // // Dodatno 
-// sveFakture.       ...nejasno gde je to dugme, kad, napravljeno/postavljeno, ali mozda samo vise ne mogu da gledam u mon. pa to ne vidim
+// sveFakture.       ...nejasno gde je to dugme, kad, napravljeno/postavljeno, ali mozda samo vise ne mogu da gledam u monitor pa to ne vidim
