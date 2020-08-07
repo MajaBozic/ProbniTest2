@@ -1,8 +1,8 @@
-const fakture = []
-let count = 0
+const fakture = []      // pravi se niz za fakture
+let count = 0           // brojac potreban za lakse naknadno biranje dodatih 
 
 
-// Inputi (posto sve to vec u HTMlu stoji na pravi se, nego samo selektuje)
+// Inputi (posto sve to vec u HTMlu stoji - ne pravi se, samo treba ovako selektovati)
 
 const unetiIme = document.querySelector('#txtCmpnName')
 const unetiPIB = document.querySelector('#txtCmpnPIB')
@@ -29,4 +29,4 @@ const lista = document.querySelector('#itemList')
 
 
 // // Dodatno 
-// sveFakture.
+// sveFakture.       ...nejasno gde je to dugme, kad, napravljeno/postavljeno, ali mozda samo vise ne mogu da gledam u mon. pa to ne vidim
