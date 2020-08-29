@@ -1,6 +1,7 @@
 Zadatak
 
-Napisati web aplikaciju koja omogucava vodjenje evidencije o fakturama. Aplikacija poseduje polje za naziv kompanije, PIB kompanije, datum fakturisanja, kao i cenu u dinarima.
+Napisati web aplikaciju koja omogucava vodjenje evidencije o fakturama. Aplikacija poseduje polje za naziv kompanije, 
+PIB kompanije, datum fakturisanja, kao i cenu u dinarima.
 
 Prilikom klika na dugme Insert u container ispod se ubacuje faktura u formatu datom unutar HTMl koda, prilozenog uz tekst.
 
@@ -38,7 +39,9 @@ Funkcionalnosti
 
 Dodatno
 
-Na HTML str ubaciti dugme iznad spiska faktura koje prilikom klika ispisuje ceo niz JS objekata kreiranih prilikom resavanja stavke 5
+Na HTML str ubaciti dugme iznad spiska faktura koje prilikom klika ispisuje ceo niz JS objekata kreiranih prilikom 
+resavanja stavke 5
 
 ### Napomena
-Za sve nejasnoce ustanoviti razumnu pretpostavku, istu dokumentovati uvidu komentara, a zatim nastaviti izradu zadatka pod tom pretpostavkom.
+Za sve nejasnoce ustanoviti razumnu pretpostavku, istu dokumentovati uvidu komentara, a zatim nastaviti izradu 
+zadatka pod tom pretpostavkom.
